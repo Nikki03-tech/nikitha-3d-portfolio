@@ -55,7 +55,7 @@ export default function Nav({ scrollY }) {
             data-umami-event="Nav Logo Click"
             style={{ fontSize: 24, fontWeight: 900, cursor: "pointer", color: t.primary, letterSpacing: -1 }}
           >
-            chinmay.
+            nikitha.
           </span>
 
           <div style={{ display: "flex", alignItems: "center", gap: 6 }}>

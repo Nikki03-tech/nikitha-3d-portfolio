@@ -28,7 +28,7 @@ export default function Hero({ scrollY, onOpenTerminal }) {
 
           <h1 style={{ fontSize: 56, fontWeight: 900, lineHeight: 1.05, marginBottom: 12, letterSpacing: -2 }}>
             Hey, I'm{" "}
-            <span style={{ color: t.primary }}>Chinmay</span>
+            <span style={{ color: t.primary }}>Nikitha</span>
           </h1>
 
           <div style={{ fontSize: 22, fontWeight: 500, color: t.textSec, marginBottom: 20, minHeight: 32 }}>
@@ -113,12 +113,12 @@ export default function Hero({ scrollY, onOpenTerminal }) {
               <span style={{ width: 10, height: 10, borderRadius: "50%", background: "#ef4444" }} />
               <span style={{ width: 10, height: 10, borderRadius: "50%", background: "#eab308" }} />
               <span style={{ width: 10, height: 10, borderRadius: "50%", background: "#22c55e" }} />
-              <span style={{ flex: 1, textAlign: "center", fontSize: 11, color: t.textMuted, fontFamily: "'JetBrains Mono', monospace" }}>chinmay.dev</span>
+              <span style={{ flex: 1, textAlign: "center", fontSize: 11, color: t.textMuted, fontFamily: "'JetBrains Mono', monospace" }}>nikitha.dev</span>
             </div>
             <div style={{ width: "100%", height: 340, display: "flex", alignItems: "center", justifyContent: "center", background: `linear-gradient(135deg, ${t.gFrom}15, ${t.gTo}15)`, overflow: "hidden" }}>
               <img
                 src={mode === "dark" ? "/headshot.jpg" : "/headshot2.jpg"}
-                alt="Chinmay Sakhare"
+                alt="Nikitha Sakhare"
                 style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 30%" }}
                 onError={(e) => {
                   e.target.style.display = "none";
@@ -131,7 +131,7 @@ export default function Hero({ scrollY, onOpenTerminal }) {
               </div>
             </div>
             <div style={{ padding: "14px 20px", fontFamily: "'JetBrains Mono', monospace", fontSize: 12, color: t.textSec, lineHeight: 1.8 }}>
-              <span style={{ color: t.primary }}>class</span> <span style={{ color: t.gTo }}>Chinmay</span> extends <span style={{ color: "#22c55e" }}>Engineer</span> {"{"}<br />
+              <span style={{ color: t.primary }}>class</span> <span style={{ color: t.gTo }}>Nikitha</span> extends <span style={{ color: "#22c55e" }}>Engineer</span> {"{"}<br />
               &nbsp;&nbsp;learning = <span style={{ color: t.gFrom }}>true</span>;<br />
               &nbsp;&nbsp;coffee = <span style={{ color: t.gFrom }}>true</span>;<br />
               &nbsp;&nbsp;planeSpotter = <span style={{ color: t.gFrom }}>true</span>;<br />
