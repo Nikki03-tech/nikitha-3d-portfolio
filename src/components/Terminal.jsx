@@ -25,7 +25,7 @@ const NEOFETCH = `
   Shell:    JavaScript/TypeScript
   Terminal: nikitha.dev
   CPU:      Coffee-powered
-  Memory:   Northeastern University
+  Memory:   Malla Reddy College of Engineering and Technology
   GPU:      Plane spotting sensors
   Theme:    Midnight Blue
 `;
@@ -129,7 +129,7 @@ export default function Terminal({ externalOpen, onExternalClose, onOpenSnake, o
     } else if (c === "resume" || c === "cat resume" || c === "download resume") {
       const a = document.createElement("a");
       a.href = data.resume;
-      a.download = "Nikitha_Sakhare_Resume.pdf";
+      a.download = "Nikitha_Singh_Raj_Purohit_Resume.pdf";
       a.click();
       res = out("> Downloading resume...");
     } else if (c === "github" || c === "open github") {
@@ -148,7 +148,7 @@ export default function Terminal({ externalOpen, onExternalClose, onOpenSnake, o
       setMode("light");
       res = out("> Switched to light mode.");
     } else if (c === "whoami") {
-      res = out("Nikitha Sakhare. Software Engineer, plane spotter, Costco premium member, gym rat.");
+      res = out("Nikitha Singh Raj Purohit. Computer Science student, AI enthusiast, and developer.");
     } else if (c === "pwd") {
       res = out("/home/nikitha/portfolio");
     } else if (c === "ls") {

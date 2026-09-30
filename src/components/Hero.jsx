@@ -23,7 +23,6 @@ export default function Hero({ scrollY, onOpenTerminal }) {
       <div style={{ maxWidth: 1080, margin: "0 auto", display: "flex", alignItems: "center", gap: 64, flexWrap: "wrap", justifyContent: "center", position: "relative", zIndex: 1 }}>
         <div style={{ flex: "1 1 440px" }}>
           <div style={{ display: "inline-block", padding: "6px 16px", borderRadius: 20, background: t.primaryLight, border: `1px solid ${t.primary}20`, marginBottom: 20 }}>
-            <span style={{ fontSize: 13, fontWeight: 600, color: t.primary }}>Open to Fall 2026 / Spring 2027 Co-op</span>
           </div>
 
           <h1 style={{ fontSize: 56, fontWeight: 900, lineHeight: 1.05, marginBottom: 12, letterSpacing: -2 }}>
@@ -117,8 +116,8 @@ export default function Hero({ scrollY, onOpenTerminal }) {
             </div>
             <div style={{ width: "100%", height: 340, display: "flex", alignItems: "center", justifyContent: "center", background: `linear-gradient(135deg, ${t.gFrom}15, ${t.gTo}15)`, overflow: "hidden" }}>
               <img
-                src={mode === "dark" ? "/headshot.jpg" : "/headshot2.jpg"}
-                alt="Nikitha Sakhare"
+                src="/nikitha.jpg"
+                alt="Nikitha Singh Raj Purohit"
                 style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 30%" }}
                 onError={(e) => {
                   e.target.style.display = "none";
@@ -133,8 +132,7 @@ export default function Hero({ scrollY, onOpenTerminal }) {
             <div style={{ padding: "14px 20px", fontFamily: "'JetBrains Mono', monospace", fontSize: 12, color: t.textSec, lineHeight: 1.8 }}>
               <span style={{ color: t.primary }}>class</span> <span style={{ color: t.gTo }}>Nikitha</span> extends <span style={{ color: "#22c55e" }}>Engineer</span> {"{"}<br />
               &nbsp;&nbsp;learning = <span style={{ color: t.gFrom }}>true</span>;<br />
-              &nbsp;&nbsp;coffee = <span style={{ color: t.gFrom }}>true</span>;<br />
-              &nbsp;&nbsp;planeSpotter = <span style={{ color: t.gFrom }}>true</span>;<br />
+              &nbsp;&nbsp;Desi Chai = <span style={{ color: t.gFrom }}>true</span>;<br />
               &nbsp;&nbsp;<span style={{ color: t.primary }}>evolve</span>() {"{"} <span style={{ color: t.textMuted }}>/* always */</span> {"}"}<br />
               {"}"};
             </div>

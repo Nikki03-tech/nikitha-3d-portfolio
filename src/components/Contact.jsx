@@ -28,7 +28,7 @@ export default function Contact() {
         }} />
 
         <p style={{ fontSize: 20, color: t.text, fontWeight: 600, marginBottom: 8 }}>
-          Looking for a Fall 2026 / Spring 2027 Co-op
+          Open to opportunities in technology, AI, software development, and product management
         </p>
         <p style={{ fontSize: 15, color: t.textSec, marginBottom: 36, maxWidth: 480, margin: "0 auto 36px", lineHeight: 1.7 }}>
           Got something interesting? I'd love to hear about it. Drop me a line and let's see if we're a good fit.

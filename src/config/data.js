@@ -81,19 +81,6 @@ const data = {
 
   experience: [
     {
-      role: "AI / Product Management Intern",
-      company: "Excelerate",
-      location: "Remote",
-      period: "2026",
-      current: false,
-      desc: "Worked on product-focused activities involving technology, research, collaboration, and problem solving while developing practical experience in product and project management.",
-      points: [
-        "Worked on product-oriented tasks involving research, planning, collaboration, and structured problem solving.",
-        "Developed practical experience in understanding user needs, organizing requirements, and communicating ideas across a team.",
-      ],
-    },
-
-    {
       role: "AI / Technology Intern",
       company: "Infosys Springboard",
       location: "Remote",
@@ -105,6 +92,19 @@ const data = {
         "Contributed to an AI Startup Idea Validator project involving AI agents, market research, competitor analysis, SWOT analysis, MVP planning, and go-to-market analysis.",
       ],
     },
+
+    {
+      role: "AI / Product Management Intern",
+      company: "Excelerate",
+      location: "Remote",
+      period: "2026",
+      current: false,
+      desc: "Worked on product-focused activities involving technology, research, collaboration, and problem solving while developing practical experience in product and project management.",
+      points: [
+        "Worked on product-oriented tasks involving research, planning, collaboration, and structured problem solving.",
+        "Developed practical experience in understanding user needs, organizing requirements, and communicating ideas across a team.",
+      ],
+    },
   ],
 
   education: [
@@ -113,7 +113,7 @@ const data = {
       school: "Malla Reddy College of Engineering and Technology",
       location: "Hyderabad, India",
       period: "2023 – 2027",
-      image: "",
+      image: "/MRCET.jpg",
       bullets: [
         "Current CGPA: 8.0",
         "Focused on Artificial Intelligence, software development, web technologies, data structures, databases, and application development.",
@@ -125,9 +125,10 @@ const data = {
       school: "Narayana Junior College",
       location: "Hyderabad, India",
       period: "2021 – 2023",
-      image: "",
+      image: "/Narayana.jpg",
       bullets: [
-        "CGPA: 8.8 / 10",
+        "Completed Intermediate education with a strong foundation in Mathematics, Physics, and Chemistry.",
+        "Developed analytical thinking, problem-solving skills, and a disciplined academic approach.",
       ],
     },
 
@@ -136,9 +137,10 @@ const data = {
       school: "Gowtham Model School",
       location: "Hyderabad, India",
       period: "Completed 2021",
-      image: "",
+      image: "/GMS.jpg",
       bullets: [
-        "CGPA: 10 / 10",
+        "Completed secondary education with a strong academic record and active participation in school activities.",
+        "Built a strong foundation in mathematics, science, communication, and logical reasoning.",
       ],
     },
   ],
