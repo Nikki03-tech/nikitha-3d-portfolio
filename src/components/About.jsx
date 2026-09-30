@@ -80,7 +80,7 @@ export default function About() {
             📍
           </div>
           <div>
-            <div style={{ fontWeight: 700, color: t.text, fontSize: 14 }}>Boston, MA</div>
+            <div style={{ fontWeight: 700, color: t.text, fontSize: 14 }}>Hyderabad, India</div>
             <div style={{ fontSize: 12, color: t.textMuted, marginTop: 2 }}>Originally from Mumbai</div>
             <div style={{ fontSize: 11, color: t.primary, marginTop: 4, fontWeight: 600 }}>
               Open to relocate anywhere in the US

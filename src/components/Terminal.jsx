@@ -16,14 +16,14 @@ const JOKES = [
 ];
 
 const NEOFETCH = `
-  chinmay@portfolio
+  nikitha@portfolio
   -----------------
   OS:       Engineer v4.0
-  Host:     Boston, MA
+  Host:     Hyderabad, India
   Kernel:   .NET Core + React
   Uptime:   4 years in industry
   Shell:    JavaScript/TypeScript
-  Terminal: chinmay.dev
+  Terminal: nikitha.dev
   CPU:      Coffee-powered
   Memory:   Northeastern University
   GPU:      Plane spotting sensors
@@ -80,7 +80,7 @@ export default function Terminal({ externalOpen, onExternalClose, onOpenSnake, o
   };
   const [matrixActive, setMatrixActive] = useState(false);
   const [history, setHistory] = useState([
-    { type: "sys", text: "Welcome to chinmay.dev terminal v2.0" },
+    { type: "sys", text: "Welcome to nikitha.dev terminal v2.0" },
     { type: "sys", text: "Type 'help' to see commands or 'games' to play." },
   ]);
   const scrollRef = useRef(null);
@@ -129,7 +129,7 @@ export default function Terminal({ externalOpen, onExternalClose, onOpenSnake, o
     } else if (c === "resume" || c === "cat resume" || c === "download resume") {
       const a = document.createElement("a");
       a.href = data.resume;
-      a.download = "Chinmay_Sakhare_Resume.pdf";
+      a.download = "Nikitha_Sakhare_Resume.pdf";
       a.click();
       res = out("> Downloading resume...");
     } else if (c === "github" || c === "open github") {
@@ -148,9 +148,9 @@ export default function Terminal({ externalOpen, onExternalClose, onOpenSnake, o
       setMode("light");
       res = out("> Switched to light mode.");
     } else if (c === "whoami") {
-      res = out("Chinmay Sakhare. Software Engineer, plane spotter, Costco premium member, gym rat.");
+      res = out("Nikitha Sakhare. Software Engineer, plane spotter, Costco premium member, gym rat.");
     } else if (c === "pwd") {
-      res = out("/home/chinmay/portfolio");
+      res = out("/home/nikitha/portfolio");
     } else if (c === "ls") {
       res = out("about/  skills/  experience/  projects/  certs/  education/  contact/  resume.pdf  games/");
     } else if (c === "neofetch") {
@@ -165,7 +165,7 @@ export default function Terminal({ externalOpen, onExternalClose, onOpenSnake, o
       setMatrixActive(true);
       setTimeout(() => setMatrixActive(false), 5000);
       res = out("> Entering the matrix... (5 seconds)");
-    } else if (c === "sudo hire chinmay" || c === "sudo hire") {
+    } else if (c === "sudo hire nikitha" || c === "sudo hire") {
       res = out("Password accepted. Hiring in progress... Welcome aboard! 🎉");
     } else if (c === "games" || c === "cd games" || c === "ls games") {
       res = pre(
@@ -297,7 +297,7 @@ export default function Terminal({ externalOpen, onExternalClose, onOpenSnake, o
             <span style={{ width: 10, height: 10, borderRadius: "50%", background: "#d29922" }} />
             <span style={{ width: 10, height: 10, borderRadius: "50%", background: "#3fb950" }} />
             <span style={{ flex: 1, textAlign: "center", fontSize: 11, color: "#8b949e", fontFamily: "'JetBrains Mono', monospace" }}>
-              chinmay@portfolio ~ v2.0
+              nikitha@portfolio ~ v2.0
             </span>
           </div>
 
@@ -317,7 +317,7 @@ export default function Terminal({ externalOpen, onExternalClose, onOpenSnake, o
                 ).join("\n")}
               </pre>
               <div style={{ position: "absolute", color: "#00ff41", fontSize: 18, fontWeight: 700, textShadow: "0 0 10px #00ff41" }}>
-                Wake up, Chinmay...
+                Wake up, Nikitha...
               </div>
             </div>
           )}
